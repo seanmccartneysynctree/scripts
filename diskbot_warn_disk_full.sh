@@ -1,6 +1,7 @@
 #!/bin/sh
 slack_url="https://hooks.slack.com/services/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"
 
+## optional function, but works best using curl
 #function notify_slack
 #{
 #  curl -X POST --data-urlencode payload@- $slack_url << EOF
